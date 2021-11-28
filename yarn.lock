@@ -22,6 +22,23 @@
   resolved "https://registry.yarnpkg.com/@ant-design/icons/-/icons-2.1.1.tgz#7b9c08dffd4f5d41db667d9dbe5e0107d0bd9a4a"
   integrity sha512-jCH+k2Vjlno4YWl6g535nHR09PwCEmTBKAG6VqF+rhkrSPRLfgpU2maagwbZPLjaHuU5Jd1DFQ2KJpQuI6uG8w==
 
+"@aomao/engine@^2.6.14":
+  version "2.6.14"
+  resolved "https://registry.yarnpkg.com/@aomao/engine/-/engine-2.6.14.tgz#3ef040400174fbcb1c6e7ea8b7178fad537586e3"
+  integrity sha512-B4lenlfnzrapw6pPwrbsiavTTYK2piMVi0MC+hcjVUFl/mZmbyC5IMVT6vAIDjN2qpA+S2lJcb+rRo1oBLw8DA==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    blueimp-md5 "^2.18.0"
+    copy-to-clipboard "^3.3.1"
+    diff-match-patch "^1.0.5"
+    dom-align "^1.12.2"
+    eventemitter2 "^6.4.4"
+    filesize "^6.3.0"
+    is-hotkey "^0.2.0"
+    lodash-es "^4.17.21"
+    ot-json0 "^1.1.0"
+    tinycolor2 "^1.4.2"
+
 "@aomao/engine@^2.6.6":
   version "2.6.6"
   resolved "https://registry.yarnpkg.com/@aomao/engine/-/engine-2.6.6.tgz#250bb70961018436a7b14768956ed0bda96f38d4"
@@ -45,6 +62,14 @@
   integrity sha512-iM5wYzmg2ttw2aHrsEhd24id5JxxlVXTBuOLsFT77WfC9EyoffO2Y2mtqnfWEs6XPIK2OH84lo3TSNJQfOVz6w==
   dependencies:
     "@aomao/engine" "^2.6.6"
+    "@babel/runtime" "^7.13.10"
+
+"@aomao/plugin-heading@^2.6.14":
+  version "2.6.14"
+  resolved "https://registry.yarnpkg.com/@aomao/plugin-heading/-/plugin-heading-2.6.14.tgz#6d5b2f7f5d98eebf3bf2ea8ce5c7ff287a4da6cb"
+  integrity sha512-LWXlnegpzXKEYM8rCEkM4jLl2gaydut/dbQxV1lRYtfpdW5dfNoBUz5bwHj970L9+bWvrX3Bx/5u9dSR5bIaHw==
+  dependencies:
+    "@aomao/engine" "^2.6.14"
     "@babel/runtime" "^7.13.10"
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.16.0":

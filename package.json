@@ -10,6 +10,7 @@
   "dependencies": {
     "@aomao/engine": "^2.6.6",
     "@aomao/plugin-bold": "^2.6.6",
+    "@aomao/plugin-heading": "^2.6.14",
     "am-editor-codeblock-vue2": "^1.0.9",
     "am-editor-toolbar-vue2": "^1.0.8",
     "core-js": "^3.6.5",
