@@ -10,6 +10,7 @@ import Engine from "@aomao/engine";
 import AmToolbar, { ToolbarPlugin, ToolbarComponent } from "am-editor-toolbar-vue2";
 import Codeblock, { CodeBlockComponent } from 'am-editor-codeblock-vue2'
 import Bold from '@aomao/plugin-bold'
+import Heading from '@aomao/plugin-heading'
 export default {
   name: "HelloWorld",
   components: {
@@ -18,7 +19,7 @@ export default {
   data: function () {
     return {
       engine: null,
-      items: [['collapse'],['bold']]
+      items: [['collapse'],['heading','bold']]
     };
   },
   props: {
@@ -33,6 +34,7 @@ export default {
           CodeBlockComponent
         ],
         plugins: [
+          Heading,
           ToolbarPlugin,
           Codeblock,
           Bold
