@@ -22,10 +22,10 @@
   resolved "https://registry.yarnpkg.com/@ant-design/icons/-/icons-2.1.1.tgz#7b9c08dffd4f5d41db667d9dbe5e0107d0bd9a4a"
   integrity sha512-jCH+k2Vjlno4YWl6g535nHR09PwCEmTBKAG6VqF+rhkrSPRLfgpU2maagwbZPLjaHuU5Jd1DFQ2KJpQuI6uG8w==
 
-"@aomao/engine@^2.6.14":
-  version "2.6.14"
-  resolved "https://registry.yarnpkg.com/@aomao/engine/-/engine-2.6.14.tgz#3ef040400174fbcb1c6e7ea8b7178fad537586e3"
-  integrity sha512-B4lenlfnzrapw6pPwrbsiavTTYK2piMVi0MC+hcjVUFl/mZmbyC5IMVT6vAIDjN2qpA+S2lJcb+rRo1oBLw8DA==
+"@aomao/engine@^2.7.16", "@aomao/engine@^2.7.26":
+  version "2.7.26"
+  resolved "https://registry.npmjs.org/@aomao/engine/-/engine-2.7.26.tgz#19ccddefbeccea56a482dfeb48a851b46f3c2af8"
+  integrity sha512-6PPqYrLcYGbAeKHMAzzn9oi4ugm9q8SKTXRCP4lM52RoigyV44IzPPxN2lgzNfD0I5j/qOEisXx/x24/pFX3mw==
   dependencies:
     "@babel/runtime" "^7.13.10"
     blueimp-md5 "^2.18.0"
@@ -35,41 +35,24 @@
     eventemitter2 "^6.4.4"
     filesize "^6.3.0"
     is-hotkey "^0.2.0"
-    lodash-es "^4.17.21"
+    lodash "^4.17.21"
     ot-json0 "^1.1.0"
     tinycolor2 "^1.4.2"
 
-"@aomao/engine@^2.6.6":
-  version "2.6.6"
-  resolved "https://registry.yarnpkg.com/@aomao/engine/-/engine-2.6.6.tgz#250bb70961018436a7b14768956ed0bda96f38d4"
-  integrity sha512-1pd82z1C09pPZECXWyt+Y0Uf/Y+XBdQbhe6r3au4npHFmbYx7YOx4p1M9l0QJevYlyJIrO1xuSNfwSNN7EqlbA==
+"@aomao/plugin-bold@^2.7.26":
+  version "2.7.26"
+  resolved "https://registry.npmjs.org/@aomao/plugin-bold/-/plugin-bold-2.7.26.tgz#d99c9737f006f97b060e0d3d62842b4c492665f0"
+  integrity sha512-92yzk7K7u/Tdm7Trc8G7id8kdIlLNMMMTMpXeMdO4aT0YbHm4wYeBleDpqh1MaldH0e7WcA00UJ7CRD4I5mWlA==
   dependencies:
-    "@babel/runtime" "^7.13.10"
-    blueimp-md5 "^2.18.0"
-    copy-to-clipboard "^3.3.1"
-    diff-match-patch "^1.0.5"
-    dom-align "^1.12.2"
-    eventemitter2 "^6.4.4"
-    filesize "^6.3.0"
-    is-hotkey "^0.2.0"
-    lodash-es "^4.17.21"
-    ot-json0 "^1.1.0"
-    tinycolor2 "^1.4.2"
-
-"@aomao/plugin-bold@^2.6.6":
-  version "2.6.6"
-  resolved "https://registry.yarnpkg.com/@aomao/plugin-bold/-/plugin-bold-2.6.6.tgz#4154a2b7836d8f61698a59ab97659ae9a22853ba"
-  integrity sha512-iM5wYzmg2ttw2aHrsEhd24id5JxxlVXTBuOLsFT77WfC9EyoffO2Y2mtqnfWEs6XPIK2OH84lo3TSNJQfOVz6w==
-  dependencies:
-    "@aomao/engine" "^2.6.6"
+    "@aomao/engine" "^2.7.26"
     "@babel/runtime" "^7.13.10"
 
-"@aomao/plugin-heading@^2.6.14":
-  version "2.6.14"
-  resolved "https://registry.yarnpkg.com/@aomao/plugin-heading/-/plugin-heading-2.6.14.tgz#6d5b2f7f5d98eebf3bf2ea8ce5c7ff287a4da6cb"
-  integrity sha512-LWXlnegpzXKEYM8rCEkM4jLl2gaydut/dbQxV1lRYtfpdW5dfNoBUz5bwHj970L9+bWvrX3Bx/5u9dSR5bIaHw==
+"@aomao/plugin-heading@^2.7.26":
+  version "2.7.26"
+  resolved "https://registry.npmjs.org/@aomao/plugin-heading/-/plugin-heading-2.7.26.tgz#11efc2c707a449de7b75fe728fbe636a12cf99ab"
+  integrity sha512-LxdLONLhxm+5M5WcyDAd0mKJCU7D8T7Owo0zlW/OmGva4+ktTnDLDAvuZcYWegZorI9tDcE7B2cYr6mK/tRd9g==
   dependencies:
-    "@aomao/engine" "^2.6.14"
+    "@aomao/engine" "^2.7.26"
     "@babel/runtime" "^7.13.10"
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.16.0":
@@ -1715,30 +1698,30 @@ alphanum-sort@^1.0.0:
   resolved "https://registry.nlark.com/alphanum-sort/download/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
   integrity sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=
 
-am-editor-codeblock-vue2@^1.0.9:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/am-editor-codeblock-vue2/-/am-editor-codeblock-vue2-1.0.9.tgz#eaa46e1816097d5358523b0d9ca0536d45e96e81"
-  integrity sha512-3Vy0+CVKbSwrYB0A0LH+ViMtsg7TIsLmRvZmyHbooWBRP0pV1tX1La4NpfUGgzIooGu60dI2FdyFsEwzMaQ6vQ==
+am-editor-codeblock-vue2@^1.0.22:
+  version "1.0.22"
+  resolved "https://registry.npmjs.org/am-editor-codeblock-vue2/-/am-editor-codeblock-vue2-1.0.22.tgz#8c372ef98a213dc8c1405433fd067b3453063ce8"
+  integrity sha512-0EjCDP+TRO5wT73lMBYJSTHVE+6YY8mfUpE9VWWNIp7WeUmg3xUJWGgmFL4lwfeRLEmcWS/uf41hgm8vxedLJQ==
   dependencies:
-    "@aomao/engine" "^2.6.6"
+    "@aomao/engine" "^2.7.16"
     "@babel/runtime" "^7.13.10"
     ant-design-vue "^1.7.8"
     codemirror "^5.63.3"
-    lodash-es "^4.17.21"
-    vue "^2.6.11"
+    lodash "^4.17.21"
+    vue "^2.6.14"
 
-am-editor-toolbar-vue2@^1.0.8:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/am-editor-toolbar-vue2/-/am-editor-toolbar-vue2-1.0.8.tgz#652835ef2b3b57d9a4ae8a22c686caac7d4b1226"
-  integrity sha512-yE3SobxuW2kBQKzJhgDihdsw2MSKWMvbfcP25H39ykeWuLPVhtiNMkzX9i3kwH6cIA5I/Iy1JtZnqXtiALwEaw==
+am-editor-toolbar-vue2@^1.0.21:
+  version "1.0.21"
+  resolved "https://registry.npmjs.org/am-editor-toolbar-vue2/-/am-editor-toolbar-vue2-1.0.21.tgz#5972dd7c18f43f7a9c1e3b9e15a394c15b9e3097"
+  integrity sha512-ETdDPXVJ8qEz3XfqpMErTD/GsRLgS3z/ycNmLsy0onIO3shWXmTRL6FePMuj48sg+1upEbkWQnhTcO3MmYTgtA==
   dependencies:
-    "@aomao/engine" "^2.6.6"
+    "@aomao/engine" "^2.7.16"
     "@babel/runtime" "^7.13.10"
     ant-design-vue "^1.7.8"
     keymaster "^1.6.2"
-    lodash-es "^4.17.21"
+    lodash "^4.17.21"
     tinycolor2 "^1.4.2"
-    vue "^2.6.11"
+    vue "^2.6.14"
 
 ansi-colors@^3.0.0:
   version "3.2.4"
@@ -5575,11 +5558,6 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
-lodash-es@^4.17.21:
-  version "4.17.21"
-  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
-  integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
-
 lodash.debounce@^4.0.8:
   version "4.0.8"
   resolved "https://registry.nlark.com/lodash.debounce/download/lodash.debounce-4.0.8.tgz?cache=0&sync_timestamp=1618847031591&other_urls=https%3A%2F%2Fregistry.nlark.com%2Flodash.debounce%2Fdownload%2Flodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
@@ -8678,10 +8656,10 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.npm.taobao.org/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha1-HuO8mhbsv1EYvjNLsV+cRvgvWCU=
 
-vue@^2.6.11:
+vue@^2.6.11, vue@^2.6.14:
   version "2.6.14"
-  resolved "https://registry.npmmirror.com/vue/download/vue-2.6.14.tgz#e51aa5250250d569a3fbad3a8a5a687d6036e235"
-  integrity sha1-5RqlJQJQ1Wmj+606ilpofWA24jU=
+  resolved "https://registry.npmjs.org/vue/-/vue-2.6.14.tgz#e51aa5250250d569a3fbad3a8a5a687d6036e235"
+  integrity sha512-x2284lgYvjOMj3Za7kqzRcUSxBboHqtgRE2zlos1qWaOye5yUmHn42LB1250NJBLRwEcdrB0JRwyPTEPhfQjiQ==
 
 warning@^4.0.0:
   version "4.0.3"
