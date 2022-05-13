@@ -8,9 +8,9 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@aomao/engine": "^2.8.27",
-    "@aomao/plugin-bold": "^2.8.27",
-    "@aomao/plugin-heading": "^2.8.27",
+    "@aomao/engine": "^2.9.0",
+    "@aomao/plugin-bold": "^2.9.0",
+    "@aomao/plugin-heading": "^2.9.0",
     "am-editor-codeblock-vue2": "^1.0.23",
     "am-editor-toolbar-vue2": "^1.0.22",
     "core-js": "^3.6.5",
